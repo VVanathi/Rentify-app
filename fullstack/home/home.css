@@ -1,0 +1,129 @@
+.first {
+    background-image: url(https://img.uhzcdn.com/static/wxapp/pc/index/index_banner.webp);
+    height: 42.8vw;
+    min-height: 528px;
+    max-height: 664px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.fonthead {
+    font-size: 46px !important;
+}
+
+.buttonclr {
+    color: #ccc;
+    border-color: #ccc;
+}
+
+@media screen and (max-width: 422px) {
+    .fonthead {
+        font-size: 70px !important;
+    }
+}
+
+@media screen and (min-width: 755px) {
+    .leftmarg {
+        margin-left: -1%;
+    }
+}
+
+.bgclrforinf {
+    background: #a09999a6;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn-danger1 {
+    color: #7b2c2c;
+}
+
+.sizeofsearch {
+    padding: 15px;
+}
+
+.keyelement {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.margin-top-10 {
+    margin-top: 169px !important;
+}
+
+@media screen and (max-width: 750px) {
+    .margin-top-10 {
+        margin-top: 70px !important;
+    }
+}
+@media screen and (max-width: 750px) {
+    .bgclrforinf {
+        background: #a09999a6;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 442px) {
+    .bgclrforinf {
+        width: 95%;
+        margin-left: 19px;
+        margin-top: -10px;
+        padding: 8px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .bgclrforinf {
+       width: 90%;
+       margin-left: 19px;
+    }
+}
+
+.card1 {
+    margin-top: 20px;
+}
+
+.icon-larg {
+    font-size: 50px;
+    color: #7b2c2c;
+}
+
+.d-flex {
+    display: flex;
+}
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card2 {
+    width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+    .card2 {
+        width: 18rem;
+    }
+}
+.width100{
+    width: 100%;
+}
+.refer-name {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 34%;
+    left: 76%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    font-size: 22px;
+}
+.position-relative {
+    position: relative;
+}
